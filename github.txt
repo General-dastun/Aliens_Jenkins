@@ -1,0 +1,13 @@
+On Gitbash:
+1- git config --global user.name "Hozai"
+2- git config --global user.email "habde050@uottawa.ca"
+3- cd C:/Users/hozai/Desktop/"my python tests"/Jenkins_pipeline
+   >> Note: When we have spaces in a name like the my python tests folder use " "!!!
+   >> Note: am using / and not the default \ in the cd line!!
+
+4- After creating a respo on github / Or locate an exsiting one:
+On gitbash:
+5- git remote add orgin https://github.com/General-dastun/Aliens_Jenkins
+6- git remote -v should return the same https you already added (good verification step)
+7- git commit -m 'Loading_files_for_testing_Jenkins'
+8- git push orgin master
