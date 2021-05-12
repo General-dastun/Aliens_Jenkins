@@ -11,3 +11,11 @@ On gitbash:
 6- git remote -v should return the same https you already added (good verification step)
 7- git commit -m 'Loading_files_for_testing_Jenkins'
 8- git push orgin master
+
+   >> Note: If problems occurs after step 8:
+
+	-git init
+	-git add .
+	-git commit -m 'Initial Commit'
+	-git push origin master or git push -u origin master
+	 >> REF: https://stackoverflow.com/questions/21264738/error-src-refspec-master-does-not-match-any/54158784
